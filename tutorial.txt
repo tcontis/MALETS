@@ -1,0 +1,62 @@
+﻿Introduction:
+
+Hello there, welcome to MALETS (MAchine LEarning Tutorial Software), software specifically designed for newcomers to Machine Learning!
+
+This box is the tutorial box. This is where you will be guided through the software and the many concepts that span the field of Machine Learning. 
+
+At the bottom of the box, you will see two arrows: one marked previous page and one marked next page. Use these to navigate the tutorial. Try clicking the “next page” button. @Section 1: Types of Machine Learning:
+
+Great! You can click the button at the end of every tutorial page to proceed to the next section. If you ever need to go back to a section, feel free to click the “previous page” button.
+
+Now let me introduce you to machine learning. Machine learning is the process by which input data is transformed into output data through an algorithm. It is based on feeding input data, typically numbers, and sometimes classification descriptors (labels) into an algorithm, in order to get a model that classifies the data or recognizes patterns in it. 
+
+This can be broken down into two types of machine learning: unsupervised learning and supervised learning:
+
+	In unsupervised learning, one does not know any sort of classification of data and the job is to find any patterns, correlations, or data structures in the data in order to make a classifier. For example, if a person was given the price of a home and the number of rooms each home had, this approach would be ideal, so as to attempt to find a correlation between the two. 
+
+	In supervised learning, the data and a sort of identifier for it has been given, and the job is to predict which classification label should be given to a certain data point. For example, if a person with $100,000 was put into category 0, another with $50,000 in category 0, one with $20,000 in category 1, and another one with $10,000 in category 1, the classifier would attempt to draw boundaries for the known classifications and could predict in which category a person with $5,000 would fall in. 
+
+	Both unsupervised learning and supervised learning are useful and can be applied to different situations, based on the problem given. @Section 2: Input Data:
+
+In machine learning, the input data fed into an algorithm is formatted in a two-dimensional array, or matrix, an example of which could look like:
+
+[ 3  2  5 ]
+[ 4  5  3 ]
+[ 7  8  4 ]
+
+	Each column (3,4, and 7 being an example in this case) represents a feature, also known as a dimension or attribute, and each row (an example being 3,2, and 5) represents a sample, also known as an instance or observation. Samples are group of data representing a single entry or unit of data and features are the numbers within that group of data, which stand for a quality.
+ 
+	Consider the matrix at the top of the page. In this matrix, the first column will represent the number of people attending a party, the second will represent the number of pizzas ordered for the party, and the third will represent the number of bottles of water ordered for the party. 
+
+	The first row of the matrix, [3 2 5], is a sample, and represents a party. Each number represents an amount for the indicated features, which are, respectively, the number of people attending a party, the number of pizzas ordered for the party, and the number of bottles of water ordered for the party. In this case, the sample of [3 2 5] means that one party had 3 guests attending, 2 pizzas ordered, and 5 bottles of water ordered. @Section 3: Labels:
+
+Also part of machine learning are labels. 
+
+	Labels are numbers assigned for every sample in matrix, and are represented in a one-dimensional array. They are numbers used to categorize, or “label” every sample in the data matrix. They are put in sequence so that they match up with each sample.
+
+Here is the matrix from the previous page:
+
+[ 3  2  5 ]
+[ 4  5  3 ]
+[ 7  8  4 ]
+
+	An example for the labels of this matrix could be [1,0,1]. This means that the first sample would fall under category 1, the second sample would fall under category 0, and the third sample would fall under category 1.@Section 4: The Input Box:
+
+The box above this one, labeled "Input", is the Input Box. In this, you can add numerical data. 
+
+Inside of the box next to the "Data:" label, we can type in our matrix as a list of arrays. For example, consider the following matrix:
+
+[ 1  3 ]
+[ 2  2 ]
+[ 0  1 ]
+[ 3  2 ]
+
+Can be entered as [1,3],[2,2],[0,1],[3,2]. The commas must be added to separate the samples ([]), and the numbers inside them (1,2,3,etc...). Try plugging this into the "Data:" textbox.
+
+As you may have observed, nothing has happened yet because we need labels. Let's add the following labels in the textbox next to the words "Labels:" : 0,1,0,1.
+
+Now a plot should show up in the "Data Plot Box". This box displays the points, the category (refer to the key), and the boundaries decided by our algorithm. This will be covered in the next section.@Section 5: 
+
+
+
+
